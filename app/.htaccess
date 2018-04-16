@@ -1,0 +1,4 @@
+# 見られたくないファイルの拡張子
+<Files ~ ".(env|log|ini|dat|yml|yaml|gitattributes|gitignore)$">
+deny from all
+</Files>
